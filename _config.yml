@@ -9,14 +9,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Thinking in coder
+title : 骏马奔驰在戈壁上
 tagline: Site Tagline
 author :
   name : David Liang
   email : liangcoder@126.com
-  github : liangcoder@126.com
-  twitter : N/A
-  feedburner : N/A
+  github : https://github.com/liangcoder
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -81,7 +79,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : liangcodergithubcom.disqus.com
+      short_name : liangcodergithubcom
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.

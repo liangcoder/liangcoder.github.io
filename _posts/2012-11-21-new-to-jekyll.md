@@ -1,9 +1,9 @@
 ---
-layout: post
-title: "初识jekyll"
-description: ""
-category: 
-tags: []
+layout      : post
+title       : "学习jekyll"
+category    : jekyll
+comments    : true
+tags        : [Jekyll Bootstrap, comments]
 ---
 {% include JB/setup %}
 
