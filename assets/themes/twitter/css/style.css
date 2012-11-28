@@ -1,10 +1,44 @@
 /* Override some defaults */
 html, body {
-  background-color: #eee;
+  background-color: #fff;
 }
 .navbar {
   margin-bottom: 0;
 }
+
+.navbar-inner{
+	padding-left:20px;
+	padding-right:20px;
+	background-color:orange;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);box-shadow:0 1px 3px rgba(0, 0, 0, 0.25),inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar .brand{
+	float:left;
+	display:block;
+	padding:8px 20px 12px;
+	margin-left:-20px;
+	font-size:150%;
+	font-weight:bolder;
+	line-height:1;
+	color:#fff;
+}
+
+.navbar .nav > li > a {
+	color: #000;
+	font-size:110%;
+}
+
+.navbar .nav > li > a:hover{
+	background-color:#fff;
+	color:#000;
+	text-decoration:none;
+}
+
 .container > footer {
   margin-top: 20px;
 }
@@ -15,6 +49,9 @@ html, body {
 /* The white background content wrapper */
 .content {
   background-color: #fff;
+  border-style:none solid solid;
+  border-width: medium;
+  border-color: orange;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
