@@ -1,6 +1,6 @@
 ---
 layout      : post
-title       : "学习jekyll"
+title       : 学习jekyll
 category    : jekyll
 comments    : true
 tags        : [Jekyll Bootstrap, comments]
