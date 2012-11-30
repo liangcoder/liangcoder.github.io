@@ -1,19 +1,19 @@
 ---
 layout    : page
-title     : 学的是技术 写的是思想
-tagline   : programmer
 ---
 {% include JB/setup %}
 
-### Blog List
   
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li style="font-size:110%;">
+      <span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; 
+      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
 </ul>
 
-### 学技术
+## 学技术
 
     public class Programmer {
 
@@ -32,7 +32,7 @@ tagline   : programmer
       }
     }
 
-### 写思想
+## 写思想
 
 缩进格式还好，但没有语法高亮，很遗憾。
 
