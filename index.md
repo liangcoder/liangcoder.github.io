@@ -3,7 +3,7 @@ layout    : page
 ---
 {% include JB/setup %}
 
-## 学技术
+### 0. 学技术
 
     public class Programmer {
 
@@ -27,13 +27,13 @@ layout    : page
       }
     }
 
-## 写思想
+### 1. 写思想
 
 缩进格式还好，但没有语法高亮，很遗憾。
 
-### 博客列表
+### 2. 博客列表
 
-<ul class="posts">
+<ul class="posts" style="margin-top:10px;">
   {% for post in site.posts %}
     <li style="font-size:110%;">
       <span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; 

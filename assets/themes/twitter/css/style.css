@@ -1,8 +1,10 @@
 /* Override some defaults */
 html, body {
   background-color: #fff;
-  font: medium/1.6em Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, Microsoft YaHei, sans-serif;
+  font-size: medium;
 }
+
 .navbar {
   margin-bottom: 0;
 }
@@ -64,7 +66,9 @@ html, body {
 }
 
 .span12 p {
-	font-size: 1.2em;
+	font-family: Helvetica, Arial, Microsoft YaHei, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
 	line-height: 180%;
 }
 
