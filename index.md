@@ -5,6 +5,8 @@ layout    : page
 
 ### 0. 学技术
 
+{% highlight java linenos %}
+
     public class Programmer {
 
       private String name;
@@ -27,9 +29,15 @@ layout    : page
       }
     }
 
+{% endhighlight %}
+
 ### 1. 写思想
 
-缩进格式还好，但没有语法高亮，很遗憾。
+缩进格式还好，语法高亮和行数搞定，很8错，very nice!  
+加了一个return-top button 这个，还是很重要滴哦！  
+但，真的是不敢在windows平台下看，可能会很糟糕。  
+
+**最重要的是：右上角的[fork me on GitHub](https://github.com/liangcoder/liangcoder.github.com)!**
 
 ### 2. 博客列表
 

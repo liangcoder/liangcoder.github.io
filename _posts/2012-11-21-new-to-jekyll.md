@@ -16,9 +16,13 @@ return
 
 ### 1. 代码
 
+{% highlight java linenos %}
+
 	for(int i = 0; i < 100; i++){
 		Sysout.out.println("Hello, world.");
 	}
+
+{% endhighlight %}
 
 ### 2. 文字
 

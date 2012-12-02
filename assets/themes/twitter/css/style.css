@@ -144,9 +144,8 @@ pre{
 	display:block;
 	padding:8px;
 	margin:5px 5px 10px 0;
-	color:#6f0;
-	background-color:#000;
-	border: none;
+	background-color: #F5FAFA;
+	border: solid thin #ACD1E9;
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
 	white-space:pre;
@@ -155,12 +154,46 @@ pre{
 	word-wrap:break-word;
 }
 
-code{
+code {
 	font-size: medium;
 	line-height:75%;
 }
 
 h2{
 	margin: 0 0 5px 0;
+}
+
+#return_top{
+	position:         fixed;
+	right:            10%;
+	bottom:           20px;
+    
+	padding:          5px;
+	background:       orange;
+	border-radius:    5px;
+
+	font-size:        110%;
+	font-weight:      bold;  
+}
+
+#return_top a{
+	color:            #FFF;
+	text-decoration:  none;
+}
+
+#return_top a:hover{
+	color:            blue;
+}
+
+.fork-me {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.fork-me img{
+    border: none;
+    box-shadow: 0 0 0 #000;
 }
 
