@@ -44,9 +44,12 @@ return
 
 ### 3. 图片
 
-暂时使用[photry.com](http://www.photry.com/ "photry.com")保存博客中使用的所有图片，实例如下  
+博客中使用的图片，实例如下  
 
-![chair](http://photry-production-singapore.s3.amazonaws.com/743/954/35678/large.jpeg?AWSAccessKeyId=AKIAIFWXMUQTJZO2WGXA&Expires=1354591988&Signature=xzyLyn4amuRSx%2BGRj7CyS%2BUoWYA%3D "chair") 
+thumb
+![chair](/assets/storage/image/thumb/chair.jpg "chair")
+
+原图
 ![chair][chairImage]  
 
 ### 4. 超链接
@@ -58,5 +61,5 @@ return
 [1]: http://www.google.com "google"
 [2]: http://github.com "github"
 
-[chairImage]: http://photry-production-singapore.s3.amazonaws.com/743/954/35678/large.jpeg?AWSAccessKeyId=AKIAIFWXMUQTJZO2WGXA&Expires=1354591988&Signature=xzyLyn4amuRSx%2BGRj7CyS%2BUoWYA%3D "chair"
+[chairImage]: /assets/storage/image/chair.jpg "chair"
 
