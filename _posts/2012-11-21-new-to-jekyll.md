@@ -44,8 +44,10 @@ return
 
 ### 3. 图片
 
-![picture](http://www.oreilly.com.cn/images/bookcover/mastering_algorithms_cvr.gif "算法精粹")
-![picture][image1]
+暂时使用[photry.com](http://www.photry.com/ "photry.com")保存博客中使用的所有图片，实例如下  
+
+![chair](http://photry-production-singapore.s3.amazonaws.com/743/954/35678/large.jpeg?AWSAccessKeyId=AKIAIFWXMUQTJZO2WGXA&Expires=1354591988&Signature=xzyLyn4amuRSx%2BGRj7CyS%2BUoWYA%3D "chair") 
+![chair][chairImage]  
 
 ### 4. 超链接
 
@@ -56,5 +58,5 @@ return
 [1]: http://www.google.com "google"
 [2]: http://github.com "github"
 
-[image1]: http://www.oreilly.com.cn/images/bookcover/mastering_algorithms_cvr.gif "算法精粹"
+[chairImage]: http://photry-production-singapore.s3.amazonaws.com/743/954/35678/large.jpeg?AWSAccessKeyId=AKIAIFWXMUQTJZO2WGXA&Expires=1354591988&Signature=xzyLyn4amuRSx%2BGRj7CyS%2BUoWYA%3D "chair"
 
