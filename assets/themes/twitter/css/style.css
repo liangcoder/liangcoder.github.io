@@ -5,6 +5,35 @@ html, body {
   font-size: medium;
 }
 
+h1, h2, h3{
+	color:#454545;
+}
+
+h1{
+	font:400 32px/32px Helvetica, sans-serif;
+	padding:0;
+}
+
+h2{
+	font:400 30px/32px Arial;
+	margin-bottom: 10px;
+	padding:10px 0 10px 0;
+	border-bottom:1px solid #454545;
+}
+
+h3{
+	font:600 26px/26px "PT Sans", Helvetica, sans-serif;
+	padding:10px 0 10px 0;
+	border-bottom:1px solid #bbb;
+}
+
+
+p{
+	font:400 18px/30px "Georgia", Helvetica, sans-serif;
+	margin:10px 0 10px 0;
+	color: #1f0909;
+}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -101,7 +130,6 @@ img {
   border: 0;
 }
 
-
 /* tag_box ======================================================== */
 
 .tag_box {
@@ -110,7 +138,9 @@ img {
 	padding:0;
 	overflow:hidden;
 }
+
 .tag_box li {
+	font-size: 90%;
 	line-height:28px;
 }
 .tag_box.inline li {
@@ -157,10 +187,6 @@ pre{
 code {
 	font-size: medium;
 	line-height:75%;
-}
-
-h2{
-	margin: 0 0 5px 0;
 }
 
 #return_top{
