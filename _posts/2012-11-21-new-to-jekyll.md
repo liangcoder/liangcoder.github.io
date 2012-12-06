@@ -8,6 +8,8 @@ comments    : true
 ---
 {% include JB/setup %}
 
+Sometimes APNs might attempt to deliver notifications for an application on a device, but the device may repeatedly refuse delivery because there is no target application. This often happens when the user has uninstalled the application. In these cases, APNs informs the provider through a feedback service that the provider connects with. The feedback service maintains a list of devices per application for which there were recent, repeated failed attempts to deliver notifications. **The provider should obtain this list of devices and stop sending notifications** to them
+
 ### 标题3. heading 3
 
 

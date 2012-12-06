@@ -1,8 +1,17 @@
 /* Override some defaults */
 html, body {
-  background-color: #fff;
-  font-family: Helvetica, Arial, Microsoft YaHei, sans-serif;
-  font-size: medium;
+	background-color: #fff;
+ 	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: 14px;
+    color: #515151;
 }
 
 h1, h2, h3{
@@ -10,26 +19,37 @@ h1, h2, h3{
 }
 
 h1{
-	font:400 32px/32px Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 32px;
 	padding:0;
 }
 
 h2{
-	font:400 30px/32px Arial;
+	margin-top: 0;
+	color: #036;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 32px;
 	margin-bottom: 10px;
-	padding:10px 0 10px 0;
+	padding:5px 0 5px 0;
 	border-bottom:1px solid #454545;
 }
 
 h3{
-	font:600 24px/26px "PT Sans", Helvetica, sans-serif;
-	padding:10px 0 10px 0;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	margin: 15px 0 15px 0;
+	padding: 10px 0 10px 0;
 	border-bottom:1px solid #bbb;
 }
 
 .span12 p {
-	font:400 18px/30px "Georgia", Helvetica, sans-serif;
-	color: #1f0909;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	color: #036;
 	margin:10px 0 10px 0;
 }
 
@@ -83,7 +103,7 @@ h3{
   border-style:none solid solid;
   border-width: medium;
   border-color: orange;
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
@@ -113,9 +133,9 @@ img {
 
 /* Page header tweaks */
 .page-header {
-  background-color: #fff;
-  padding: 20px 20px 10px;
-  margin: -20px -20px 20px;
+  background-color: #F5FAFA;
+  padding: 10px 20px 2px;
+  margin: -20px -20px 5px;
 }
 
 .topbar .btn {
