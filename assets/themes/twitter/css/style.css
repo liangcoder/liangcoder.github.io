@@ -131,6 +131,17 @@ img {
     box-shadow: 0 0 4px #d0d0d0;
 }
 
+.blogrss{
+	border: none;
+	margin-top: 10px;
+}
+
+.blogrss img{
+	float: left;
+	border: none;
+	box-shadow:none;
+}
+
 /* Page header tweaks */
 .page-header {
   background-color: #F5FAFA;
@@ -233,5 +244,11 @@ code {
 .fork-me img{
     border: none;
     box-shadow: 0 0 0 #000;
+}
+
+.span12 ul li {
+	font-size:120%; 
+	color:#036; 
+	margin-top:10px;
 }
 

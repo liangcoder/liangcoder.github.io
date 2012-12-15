@@ -3,20 +3,49 @@ layout    : page
 ---
 {% include JB/setup %}
 
-### 0. 学技术
+<div class="blogrss">
+  <a target="_blank" href="{{ BASE_PATH }}atom.xml"><img width="32" height="32" src="/assets/storage/image/rss.png"/></a>
+</div>
+
+### 博客列表
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; 
+      <a target="_blank" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+### 1. 博客分类
+<ul>
+  {% for category in site.categories %} 
+    <li>
+      <a target="_blank" href="{{ BASE_PATH }}categories.html#{{ category[0] }}-ref">{{ category[0] }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+### 2. 博客标签
+<ul class="tag_box inline">
+  {% for tag in site.tags %} 
+    <li>
+      <a target="_blank" href="{{ BASE_PATH }}tags.html#{{ tag[0] }}-ref">{{ tag[0] }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+### 3. 学技术
 
 {% highlight java linenos %}
 
     public class Programmer {
 
       private String name;
-      private int age;
-      private char sex;
 
       public Programmer() {
         name = "David Liang";
-        age = 28;
-        sex = 'M';
       }
 
       public void post(String content) {
@@ -25,28 +54,13 @@ layout    : page
 
       @Override
       public String toString() {
-        return String.format("name=[%s], age=[%s], sex=[%s]", name, age, sex);
+        return String.format("name=[%s]", name);
       }
     }
 
 {% endhighlight %}
 
-### 1. 写思想
+### 4. 写思想
 
-缩进格式还好，语法高亮和行数搞定，很8错，very nice!  
-加了一个return-top button 这个，还是很重要滴哦！  
-但，真的是不敢在windows平台下看，可能会很糟糕。  
-
-**最重要的是：右上角的[fork me on GitHub](https://github.com/liangcoder/liangcoder.github.com)!**
-
-### 2. 博客列表
-
-<ul class="posts" style="margin-top:10px;">
-  {% for post in site.posts %}
-    <li style="font-size:110%;">
-      <span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; 
-      <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+代码不仅是解决问题的工具，而且是代码编写人员思想的表达。  
 
