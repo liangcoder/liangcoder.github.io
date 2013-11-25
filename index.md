@@ -49,7 +49,7 @@ layout    : page
       }
 
       public void post(String content) {
-        System.out.println(String.format("%s is posed by %s", content, name));
+        System.out.println(String.format("%s is posted by %s", content, name));
       }
 
       @Override
