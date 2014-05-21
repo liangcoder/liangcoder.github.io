@@ -35,32 +35,3 @@ layout    : page
     </li>
   {% endfor %}
 </ul>
-
-### 3. 学技术
-
-{% highlight java linenos %}
-
-    public class Programmer {
-
-      private String name;
-
-      public Programmer() {
-        name = "David Liang";
-      }
-
-      public void post(String content) {
-        System.out.println(String.format("%s is posted by %s", content, name));
-      }
-
-      @Override
-      public String toString() {
-        return String.format("name=[%s]", name);
-      }
-    }
-
-{% endhighlight %}
-
-### 4. 写思想
-
-代码不仅是解决问题的工具，而且是代码编写人员思想的表达。  
-

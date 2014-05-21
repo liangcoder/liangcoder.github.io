@@ -9,8 +9,9 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 学的是技术 写的是思想
-tagline: Site Tagline
+title : All Things Communicated 
+description : a programmer's blog for the communication technology
+tagline : Site Tagline
 author :
   name : David Liang
   email : liangcoder@126.com
