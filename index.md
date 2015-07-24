@@ -7,7 +7,7 @@ layout    : page
   <a target="_blank" href="{{ BASE_PATH }}atom.xml"><img width="32" height="32" src="/assets/storage/image/rss.png"/></a>
 </div>
 
-### 博客列表
+### Posts
 
 <ul>
   {% for post in site.posts %}
@@ -18,7 +18,7 @@ layout    : page
   {% endfor %}
 </ul>
 
-### 1. 博客分类
+### Categories
 <ul>
   {% for category in site.categories %} 
     <li>
@@ -27,7 +27,7 @@ layout    : page
   {% endfor %}
 </ul>
 
-### 2. 博客标签
+### Tags
 <ul class="tag_box inline">
   {% for tag in site.tags %} 
     <li>
