@@ -1,6 +1,6 @@
 ---
 layout      : post
-title       : yosemite upgrade and install jdk
+title       : Yosemite Upgrade and Install JDK
 description : install jdk6 on the yosemite
 category    : daily
 tags        : [yosemite, jdk, daily]
