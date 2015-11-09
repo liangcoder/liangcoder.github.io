@@ -4,7 +4,7 @@ title       : Learn Jekyll
 description : Try to learn the jekyll
 category    : thinking
 tags        : [Jekyll Bootstrap, learning]
-comments    : true
+comments    : false
 ---
 {% include JB/setup %}
 
@@ -58,7 +58,7 @@ thumb
 原图
 ![chair][chairImage]  
 
-### Hyperlink Sample 
+### Hyperlink Sample
 
 这是一本很棒的书
 [Java语言精粹](http://www.oreilly.com.cn/index.php?func=book&isbn=978-7-121-13309-1 "Java语言精粹")  
