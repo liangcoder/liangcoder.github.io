@@ -46,6 +46,7 @@ h3{
 }
 
 .span12 p {
+	font-family: "Anonymous Pro", monospace;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 30px;
@@ -216,13 +217,13 @@ code {
 	position:         fixed;
 	right:            10%;
 	bottom:           20px;
-    
+
 	padding:          5px;
 	background:       orange;
 	border-radius:    5px;
 
 	font-size:        110%;
-	font-weight:      bold;  
+	font-weight:      bold;
 }
 
 #return_top a{
@@ -247,8 +248,7 @@ code {
 }
 
 .span12 ul li {
-	font-size:120%; 
-	color:#036; 
+	font-size:120%;
+	color:#036;
 	margin-top:10px;
 }
-
