@@ -31,3 +31,15 @@ After installation, jdk6 home can be found in the following path:
 >
 
 Notice that, the path of jdk7 home begins with "/Library/Java/", however, the jdk6 home is "/System/Library/Java/". It's really a bad example of the consistency.
+
+Moreover, the path where the JDK installed can be found out by executing the following shell command:
+
+{% highlight console %}
+
+$ /usr/libexec/java_home -v 1.6
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+
+$ /usr/libexec/java_home -v 1.7
+/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home
+
+{% endhighlight %}
