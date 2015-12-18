@@ -3,7 +3,7 @@ layout      : post
 title       : Yosemite Upgrade and Install JDK
 description : install jdk6 on the yosemite
 category    : daily
-tags        : [yosemite, jdk, daily]
+tags        : [macos, jdk, daily]
 ---
 {% include JB/setup %}
 
