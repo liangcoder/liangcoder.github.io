@@ -1,15 +1,15 @@
 ---
 layout      : post
-title       : EI Capitan Upgrade
-description : upgrade Mac OS X to EI Capitan
+title       : EI Capitan Upgrade and Install JDK6
+description : upgrade Mac OS X to EI Capitan and install JDK6
 category    : daily
 tags        : [macos, jdk, daily]
 ---
 {% include JB/setup %}
 
-大约三天前，2015-12-15， 我升级了Mac OS X到最新版本10.11, 代号EI Captan。
+大约三天前，2015-12-15，我将本本的Mac OS X到最新版本10.11, 代号EI Capitan。
 
-虽然之前有听说升级后会导致CPU变成烽火轮等诸多副作用，但，还是没忍住点击了升级按钮，唯一的依仗就是机器比较新，相信Apple的兼容性！
+虽然之前有听说升级后可能会出现CPU变成风火轮等诸多副作用，但，还是没忍住点击了升级按钮，唯一的依仗就是机器比较新，相信Apple的兼容性！
 
 升级过程耗时大约20分钟，完成后的第一感觉是字体显示效果提升显著，这个特性是相当棒！去官网了解下其它众新特性，说是Notes有显著提升，果断用起来记日常笔记。
 
