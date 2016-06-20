@@ -1,4 +1,4 @@
 ##liangcoder.github.com
 =======================
 
-Here is a blog for Programmers.
+Here is a blog of a developer.
