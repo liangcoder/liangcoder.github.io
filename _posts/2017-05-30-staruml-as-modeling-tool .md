@@ -13,6 +13,6 @@ StarUML, however, is the best one I ever use, which is only 100 Megabits after i
 
 One sentence used to describe this handy tool on its official website is stated as following:
 
-> "StarUML is an open source project to develop fast, flexible, extensible, featureful, and freely-available UML/MDA platform running on Win32 platform." from [StarUML official site](http://staruml.sourceforge.net/ "StarUML")
+> "StarUML is an open source project to develop fast, flexible, extensible, featureful, and freely-available UML/MDA platform running on Win32 platform." from [StarUML official site](http://staruml.io/ "StarUML")
 
 One tip: "Word Wrap Name" button on the tool bar can be able to make string of any UML elements multiple lines showing enable by adjusting the area of them.
