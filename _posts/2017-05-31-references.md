@@ -13,6 +13,8 @@ tags        : [references, daily]
 
 * [Reflections of an "Old" Programmer](http://www.bennorthrop.com/Essays/2016/reflections-of-an-old-programmer.php)
 
+* [What are microservices](http://microservices.io/index.html)
+
 ### 2. Documents
 
 * TODO:
