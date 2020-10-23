@@ -14,7 +14,21 @@ Jekyll is a popular tools for transforming the plain text into static HTML based
 
 - Install the Jekyll: gem install jekyll
 - Enter the local web site directory.
-- Start up the Jekyll server locally: jekyll serve
+- Start up the Jekyll server locally using the following command: 
+
+{% highlight shell %}
+
+jekyll serve
+
+{% endhighlight %}
+
+or
+
+{% highlight shell %}
+
+jekyll s
+
+{% endhighlight %}
 
 Access url locally is [http://localhost:4000](http://localhost:4000)
 
