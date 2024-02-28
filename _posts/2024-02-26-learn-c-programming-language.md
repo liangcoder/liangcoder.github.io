@@ -17,10 +17,27 @@ tags        : [daily]
 
 转眼间二十年过去了，情不自禁的又想再读一读这本经典佳作，顺便找回一下作为一名程序员的初心。
 
+## 2. MacOS环境使用iTerm和Visual Studio Code
+
+MacOS环境自带了Apple Clang编译器可以用来编译C语言，其对C标准支持的很好，比如C99和C11。
+
+Visual Studio Code IDE 来自Microsoft，支持多种编程语言的IDE，可以结合iTerm使用同时也提供了丰富的Extensions, 学习C语言需要安装C/C++ Extensions基本就够了，额外再安装一个CodeRunner用来快捷运行C程序，后者输出运行结果更友好一些：
+
+{% highlight shell %}
+
+[Running] cd "/Users/david/workspace/c_primer_plus/chapter_2/" && gcc first.c -o first && "/Users/david/workspace/c_primer_plus/chapter_2/"first
+I am a simple computer.
+My favorite number is 1, because it is first not.
+
+[Done] exited with code=0 in 0.547 seconds
+
+{% endhighlight %}
+
 ![book][c_primer_plus_image] 
 
 ## Reference
 
 * [Developing C programs on Mac OS](https://www.cs.auckland.ac.nz/~paul/C/Mac/ "Developing C programs on Mac OS")
+* [C language documentation from Visual Studio](https://learn.microsoft.com/en-us/cpp/c-language/?view=msvc-170 "C language documentation from Visual Studio")
 
 [c_primer_plus_image]: /assets/storage/image/c_primer_plus.png "c_primer_plus"
